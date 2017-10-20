@@ -65,10 +65,10 @@ var levels = [
         selector: {
             css: "input[placeholder='apelido']"
         },
-        helpText: "Para localizaer um elemento através de seu valor é necessário informar o elemento, o atributo e o valor. Ele fica uma 'recita de bolo': <code>elemento[atributo='valor']</code>. Basta substituir cada um dos nomes pelo real. ",
+        helpText: "Para localizar um elemento através de seu valor é necessário informar o elemento, o atributo e o valor. Ele fica uma 'receita de bolo': <code>elemento[atributo='valor']</code>. Basta substituir cada um dos nomes pelo real. ",
         examples: [
             'Elemento: <code>&lt;input type="text" value="Mulher" /></code>',
-            'Locator: <code>input[valur="Mulher"]<code> '
+            'Locator: <code>input[value="Mulher"]<code> '
         ],
         html: `
 <form>
@@ -223,7 +223,7 @@ var levels = [
         selector: {
             css: "input[name$='inputUsuario']"
         },
-        helpText: "Para localizar um elemento com um valor de texto final é necessário usar o <code>^</code> antes do símbolo de igual (<code>$</code>).",
+        helpText: "Para localizar um elemento com um valor de texto final é necessário usar o <code>$</code> antes do símbolo de igual (<code>=</code>).",
         examples: [
             'Elemento: <code>&lt;input id="239_usuario" /></code>',
             'Locator: <code>input[value$="usuario"]</code>'
